@@ -1,0 +1,21 @@
+﻿<html>
+<head>
+    <title> Tu peso en un lugar donde pesas menos</title>
+    <body>
+        <h1> Tu peso en otro planeta </h1>
+        <p>  En la Tierra pesas distinto que en Marte o Jupiter </p>
+        <script>
+            
+            var estatura = prompt("Hola el IMC es un dato muy importante para conocer nuestro estado de Salud \n Ingresa tu estatura en centimetros");
+            var estatura = estatura /100
+            var estatura = estatura * estatura;
+            var peso = prompt("Ingresa tu peso en kilos");
+            var imc = parseFloat(peso / estatura)
+
+            document.write("Tu IMC es de <strong>" + imc + " </strong>");
+
+            
+        </script>
+    </body>
+</head>
+</html>
